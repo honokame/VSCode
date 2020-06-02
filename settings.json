@@ -1,0 +1,60 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tabSize": 2,
+    "editor.formatOnPaste": true,
+    "editor.minimap.showSlider": "always",
+    "editor.wordWrap": "on",
+    "editor.formatOnType": true,
+    "editor.quickSuggestionsDelay": 1,
+    "editor.quickSuggestions": null,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "workbench.colorTheme": "Dark (Molokai)",
+    "workbench.preferredDarkColorTheme": "Dark (Molokai)",
+    "workbench.editor.labelFormat": "short",
+    "vim.useSystemClipboard": true,
+    "vim.whichwrap": "h,l,<,>,[,]",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Enter>"
+            ],
+            "commands": [
+                "editor.action.insertLineAfter"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": [
+        "#8FBCBB",
+        "#434C5E"
+    ],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#434C5E"
+    },
+}
